@@ -66,6 +66,10 @@ document.querySelectorAll("img")[3].addEventListener("click", function (e) {
   alert("Masmavi bir deniz");
 });
 
+window.addEventListener("load", function (e) {
+  this.alert("Hoş geldin!");
+});
+
 //p
 document.querySelector(".intro p").addEventListener("copy", function (e) {
   alert("Kopyalamayın!");
